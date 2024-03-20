@@ -70,12 +70,12 @@ export default function Home() {
         
       </div>
       <div style={{backgroundColor: '#585989'}} className="w-full flex flex-col md:flex-row gap-5 justify-center items-center p-16 md:px-0 text-white">
-        <div className="flex-1 flex flex-col gap-5 px-16">
+        <div className="flex-1 flex flex-col gap-5 md:px-16">
           <p className="text-lg md:text-3xl text-center md:text-left font-bold">Get early access today</p>
           <p className="text-sm text-center md:text-left">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any questions, our support team would be happy to help you.</p>
         </div>
-        <div className="flex-1 md:w-full  px-16">
-          <form onSubmit={()=>{}} className="flex flex-col text-xs w-[calc(13rem)] md:w-full md:justify-center pl-20  gap-2">
+        <div className="flex-1 md:w-full  md:px-16">
+          <form onSubmit={()=>{}} className="flex flex-col text-xs w-[calc(13rem)] md:w-full md:justify-center md:pl-20  gap-2">
             <input className="px-4 py-2 text-black outline-none rounded md:max-w-96" type="text" placeholder="email@example.com"/>
             <input className="bg-blue-600 py-2 md:max-w-48 outline-none rounded" type="submit" value={'Get started for free'}/>
           </form>
